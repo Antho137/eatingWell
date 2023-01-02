@@ -1,0 +1,498 @@
+body {
+    margin: 0;
+}
+
+.container-fluid {
+    width: 100vw;
+	background-color: #FFF;
+}
+
+#head {
+	position: fixed;
+	width: 100%;
+    z-index: 5;
+	background-color: #ff6347; 
+	border-bottom: 1px solid #ff6347;
+}
+
+#head {
+    padding: 10px;
+    margin: 0;
+}
+
+#head .logo {
+    color: #FFF;
+    font-size: 1.625rem;
+    font-weight: 500;
+}
+
+.logo:hover {
+    text-decoration: none;
+}
+
+#head a {
+    color: #fff; 
+    font-size: 1rem;
+}
+
+#navbar ul {
+    width: 100%;
+    position: relative;
+    top: 15px;
+    z-index: 1;
+    margin: 0;
+    padding: 20px 0;
+    text-align: center;
+    background-color: hsl(0, 0%, 98%);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#navbar a {
+    color: hsl(250, 12%, 13%);
+    font-weight: 500;
+    font-size: 1rem;
+    text-align: center;
+}
+
+#navbar a:hover {
+    color: hsl(227, 12%, 61%);
+}
+
+.order, .submit {
+	border: none;
+	padding: .5rem .75rem;
+	font-size: .875rem;
+	width: 130px;
+	border-radius: 5px;
+    text-align: center;
+    transition: all 0.2s linear;
+}
+
+#main {
+    position: relative;
+    top: 90px;
+	margin: 1.25rem 0;
+}
+
+#main h2 {
+    font-weight: 700;
+	padding-bottom: 0;
+    color: #ff6347;
+}
+
+#intro {
+    text-align: center;
+}
+
+#head .order  {
+    color: #ff6347;
+    font-weight: 500;
+	background-color: #fff;
+}
+
+#intro .order, #menuOrder .order, #submit  {
+    color: #FFF;
+	background-color: #ff6347;
+}
+
+#recipes {
+    margin: 40px 0;
+}
+
+.menu {
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.price {
+    color: #ff6347;
+    font-weight: 500;
+}
+
+#recipes, #articles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#articles, #section {
+    position: relative;
+    top: 80px;
+    margin: 20px 0;
+    padding: 20px 0;
+    border-top: 1px solid #d3d3d3;
+}
+
+h3 {
+    color: #ff6347;
+    padding-bottom: .5rem;
+    margin: .625rem 0 .25rem;
+}
+
+#orderForm p, #paymentForm p {
+    padding: 0;
+    margin-bottom: 5px;
+    font: 1rem sans-serif;
+}
+
+.customer, .phone, .date, .time, #payment label {
+    width: 130px;
+    text-align: right;	
+}
+
+label {
+    width: 100px;
+    margin-right: 5px;
+    font-size: .875rem;
+}
+
+input {
+	width: 120px;
+	padding: 3px 5px;
+    font-size: .875rem;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+}
+
+.menuorder {
+    text-align: left;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+}
+
+input[type="number"] {
+    width: 40px;
+}
+
+.Qty {
+    width: 70px;
+	
+}
+
+.meal {
+    width: 50px;
+}
+
+#menuOrder .order {
+    margin: 10px 0 0;
+}
+
+#menuOrder, #cart {
+    text-align: center;
+}
+
+#menuOrder, #cart, #paymentOrder {
+	border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #d3d3d3;
+    background-color: #f5f5f5;
+}
+
+table {
+    margin: .3125em auto;
+    font-size: 1rem;
+}
+
+tr {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+tr td, tr th, h6 {
+    text-align: center;
+}
+
+tr th, tr:nth-last-child(4), tr:nth-last-child(2) {
+	border-bottom: 2px solid #d3d3d3;
+} 
+
+tr:last-child {
+	font-weight: bold;
+}
+
+th, td {
+	padding: .25em;
+}
+
+#payment {
+    margin: 20px auto;
+}
+
+#card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+input[type="radio"] {
+    width: 10px;
+    padding: 0;
+    margin: 0 5px 7px 10px;
+}
+
+#card .labelcard {
+    width: auto;
+    padding: 0;
+    margin: 0 10px 0 0;
+    font-size: .875rem;
+}
+
+select {
+    font-size: .875rem;
+}
+
+input[type="submit"] {
+    padding: 3px 10px 5px;
+    margin: 20px 0 0;
+}
+
+input:invalid {
+    background-color: rgba(221,147,148,0.2);
+}
+
+#contact {
+    margin: 20px 0;
+    text-align: center;
+}
+
+#contact p {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#restaurant div {
+    margin-bottom: 20px;
+}
+
+#open {
+    width: 90%;
+    color: #ff6347;
+    font-weight: 700;
+    padding: 5px 0;
+    margin: 20px auto 0;
+    text-align: center;
+    border: 1px solid #ff6347;
+}
+
+#foot {
+    position: relative;
+    top: 70px;
+	width: 100%; 
+    text-align: center; 
+    margin: 2.5rem 0 0;
+    padding: .625rem 0;
+    font-weight: 500;
+    background-color: #ff6347;
+}
+    
+#foot ul {
+    padding: 0;
+}
+    
+#foot ul li {
+    display: block;
+    padding: 0 0;
+}
+
+#foot p {
+	color: #fff;
+    font-size: 1rem;         
+}
+
+#foot a {
+	color: #000;
+}
+
+#social img {
+    margin: 0;
+	display: inline;
+    padding: 10px;
+}
+
+#mission {
+    text-align: center;
+}
+
+@media only screen and (min-width: 280px) {
+
+#nav button {
+    padding: 0;
+}
+
+#order {
+    display: none;
+}
+
+#main h2 {
+    font-size: 1.625rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+h4 {
+    font-size: 1.375rem;
+    text-align: center;
+}
+
+#main img {
+    width: 100%;
+	margin: 0 auto;
+    border-radius: 10px;
+    padding: .3125rem 0;  
+}
+}
+
+@media only screen and (min-width: 390px) {
+
+    label {
+        width: 120px;
+        margin-right: 5px;
+        font-size: 1rem;
+    }
+    
+    .Qty {
+        width: 80px;        
+    }
+
+    #open {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+
+    #navbar ul {
+        top: 65px;
+    }
+     
+    #recipes, #articles, #section1, #restaurant {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #articles {
+        position: relative;
+        top: 70px;
+        margin: 30px 0 20px;
+    }
+
+    input[type="number"] {
+        width: 40px;
+    }
+    
+    .Qty {
+        width: 80px;
+        margin-left: 20px;
+        margin-right: 0;      
+    }
+
+    #open {
+        width: 55%;
+    }
+    
+    #foot ul li {
+        display: inline-block;
+        padding: 0;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    nav {
+        text-align: center;
+        padding: .625rem 0 0;
+    }
+
+    #navbar ul {
+        top: 75px;
+    }
+    
+    #head .logo {
+        font-size: 2em;
+    }
+
+    .active {
+        border-bottom: 3px solid #fff;
+    } 
+
+    #main {
+        position: relative;
+        top: 100px;
+    }
+
+    #open {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    #head {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+    
+    #head .logo {	
+        padding-right: 200px;
+    }
+
+    #navbar {
+        padding-left: 0;
+    }
+
+    #navbar ul {
+        width: auto;
+        position: relative;
+        top: 0;
+        z-index: 0;
+        color: #000;
+        padding: 10px 0;
+        text-align: left;
+        background-color: transparent;
+        box-shadow: none;
+        margin: 0 30px;
+    }
+    
+    nav ul li {
+        display: inline-block;
+        padding: 0 .5rem;
+    }
+
+    #order {
+        display: block;
+        padding-left: 30px;
+    }
+
+    #main, #articles, #section, #foot {
+        position: relative;
+        top: 100px;
+    }
+
+    #payment label {
+        margin-left: 20px;	
+    }
+
+    #open {
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    #payment label {
+        margin-left: 50px;	
+    }
+}
