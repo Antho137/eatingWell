@@ -112,7 +112,8 @@ function calcTotal() {
 	    cardSelected = false;
 		hidePayment();
 		emptyCart();	
-	});	
+	});
+	form.disabled = true;
 };
 
 // Get quantity value from check boxes
