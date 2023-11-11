@@ -112,8 +112,7 @@ function calcTotal() {
 	    cardSelected = false;
 		hidePayment();
 		emptyCart();	
-	});
-	form.disabled = true;
+	});.
 };
 
 // Get quantity value from check boxes
@@ -180,7 +179,7 @@ function createEventListeners() {
 			return true;
 		}
 	})
-	
+	calButton.disabled = true;
 	hidePayment();
 	updateYear();
 }
