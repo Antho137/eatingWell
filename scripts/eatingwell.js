@@ -18,7 +18,8 @@ function calcTotal() {
 
 	let order = document.getElementById("cart");
 	order.style.display = "block";
-	
+
+	let calButton = document.getElementById("calculate");
 	// Declare the table that shows order information
 	let table = "<table>";
     table += "<tr><th>Qty</th><th>Product</th><th>U. Price</th><th>T. Price</th></tr>"; 	
@@ -110,9 +111,10 @@ function calcTotal() {
 		    card[i].checked = false;
 	    }
 	    cardSelected = false;
-		hidePayment();
-		emptyCart();	
-	});.
+	    hidePayment();
+	    emptyCart();	
+	});
+	calButton.disabled = true;
 };
 
 // Get quantity value from check boxes
@@ -179,7 +181,6 @@ function createEventListeners() {
 			return true;
 		}
 	})
-	calButton.disabled = true;
 	hidePayment();
 	updateYear();
 }
